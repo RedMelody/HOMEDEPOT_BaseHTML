@@ -66,7 +66,7 @@ u + #body a {
         }
         .two-col .column{
             width: 100%;
-            max-width: 310px;
+            max-width: 290px;
             display: inline-block;
             vertical-align: top;
             text-align: center;
@@ -74,12 +74,23 @@ u + #body a {
         .two-col .padding{
             padding: 20px;
         }
+        .buttons{
+            width: 100%;
+            max-width: 636px;
+            display: block;
 
-@media (max-width: 320px){
+        }
+
+        @media (max-width: 320px){
+
+            .disappear a img p{
+                display: none!important;
+                visibility: hidden!important;
+                opacity: 0!important;
+            }
 
 
-
-}
+        }
 
 /* Base Media Queries */
 @media (max-width: 480px) {
@@ -138,9 +149,9 @@ u + #body a {
                            <![end if]-->
                            
                             <tr>
-                                <td class="two-col dissapear" style="background-color:#fff;padding: 0;">
+                                <td class="two-col disappear" style="background-color:#fff;padding: 0;">
                 
-                                    <table class="column" width="100%">
+                                    <table class="column disappear" width="100%">
                                         <tr>
                                             <td style="padding: 10px 0 10px 0;text-align: left;">
                                                  <a style="text-decoration: none;color: #000;font-weight: bold;"><p style="font-size: 14px;">Find what you need to for less</p></a>
@@ -148,7 +159,7 @@ u + #body a {
                                         </tr>
                                     </table>
                 
-                                    <table class="column" border="0" >
+                                    <table class="column disappear" border="0"  width="100%">
                                         <tr>
                                             <td style="padding: 10px 0 10px 0;text-align: right;">
                                                 <a href="#" style="text-decoration: none;color: #000;font-weight: bold;"><p style="font-size: 14px;padding: 0 95px 7px;">View as a webpage</p></a>
@@ -182,18 +193,18 @@ u + #body a {
                             <td class="two-col" style="background-color:#fff;padding: 0;">
                                 
             
-                                <table class="column">
+                                <table class="column" width="100%">
                                     <tr>
                                         <td style="padding:  1px;text-align: center;">
-                                             <a href="#"><img src="imgs/LOGO.jpg" alt="Home depot Logo" width="120p" style="padding: 16px 20px 10px;"></a>
+                                             <a href="#"><img src="imgs/LOGO.jpg" alt="Home depot Logo" width="120p" style="padding: 16px 20px 10px;" border="0"></a>
                                         </td>
                                     </tr>
                                 </table>
             
-                                <table class="column" border="0">
+                                <table class="column" width="100%">
                                     <tr>
                                         <td style="padding: 1px ;text-align: center;">
-                                            <a href="#"><img src="imgs/SPECIALOFFERS.jpg" alt="Specials and offers" width="110" style="padding: 5px 170px 10px;"></a>
+                                            <a href="#"><img src="imgs/SPECIALOFFERS.jpg" alt="Specials and offers" width="110" style="padding: 5px 170px 10px;" border="0"></a>
                                         </td>
                                     </tr>
                                 </table>
@@ -227,13 +238,13 @@ u + #body a {
                            <![end if]-->
 
                             <tr>
-                                <td style="padding: 0;" class="dissapear">
-                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 6px 12px;display: inline-block;">Appliances</a>
-                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 6px 12px;display: inline-block;">Bath</a>
-                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 6px 12px;display: inline-block;" >Flooring</a>
-                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 6px 11px;display: inline-block;">Lighting &#38; Fans</a>
-                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 6px 12px;display: inline-block;">Tools</a>
-                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 6px 10px;display: inline-block;">Outdoor Living</a>
+                                <td style="padding: 0;" class="disappear" width="100%">
+                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 6px 12px;display: inline-block;" border="0">Appliances</a>
+                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 6px 12px;display: inline-block;" border="0">Bath</a>
+                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 6px 12px;display: inline-block;" border="0">Flooring</a>
+                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 6px 11px;display: inline-block;" border="0">Lighting &#38; Fans</a>
+                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 6px 12px;display: inline-block;" border="0">Tools</a>
+                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 6px 10px;display: inline-block;" border="0">Outdoor Living</a>
                                 </td>
                             </tr>
 
@@ -256,24 +267,24 @@ u + #body a {
                         <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" bgcolor="#ffffff" role="presentation">
 
                             <tr>
-                                <td style="padding: 10px;" class="dissapear">
+                                <td style="padding: 10px;" class="disappear">
                                     <table width="100%" style="border-spacing: 0;" role="presentation">
                                         <tr>
-                                            <td height="2px" style="background-color:#a5a5a5;"></td>
+                                            <td height="2px" style="background-color:#a5a5a5;" border="0"></td>
                                         </tr>
 
                                         <tr>
                                             <td>
-                                                <table class="dissapear">
-                                                    <p style="font-size: 15px;font-weight: bolder;text-decoration: none;color: #000;background-color: #fff;padding: 6px;display: inline-block;">FREE 2-DAY DELIVERY</p>
-                                                    <p style="font-size: 15px;font-weight: bolder;text-decoration: none;color: #000;background-color: #fff;padding: 6px;display: inline-block;">FREE IN STORE PICKUP</p>
-                                                    <p style="font-size: 15px;font-weight: bolder;text-decoration: none;color: #000;background-color: #fff;padding: 6px;display: inline-block;">FREE AND EASY RETURNS &#10097;</p>
+                                                <table class="disappear" width="100%">
+                                                    <p style="font-size: 15px;font-weight: bolder;text-decoration: none;color: #000;background-color: #fff;padding: 6px;display: inline-block;" border="0">FREE 2-DAY DELIVERY</p>
+                                                    <p style="font-size: 15px;font-weight: bolder;text-decoration: none;color: #000;background-color: #fff;padding: 6px;display: inline-block;" border="0">FREE IN STORE PICKUP</p>
+                                                    <p style="font-size: 15px;font-weight: bolder;text-decoration: none;color: #000;background-color: #fff;padding: 6px;display: inline-block;" border="0">FREE AND EASY RETURNS &#10097;</p>
                                                 </table>
                                             </td>
                                         </tr>
 
                                         <tr>
-                                            <td height="2px" style="background-color:#a5a5a5;"></td>
+                                            <td height="2px" style="background-color:#a5a5a5;" border="0"></td>
                                         </tr>
                                     </table>
                                 </td>
@@ -304,7 +315,7 @@ u + #body a {
                                     </table>
             
                                     <tr>
-                                          <td height="8px" style="background-color: #ffffff;"></td>
+                                          <td height="8px" style="background-color: #ffffff;" border="0"></td>
                                     </tr>
                                 </td>
                             </tr>
@@ -359,29 +370,29 @@ u + #body a {
                                     <table cellspacing="0" cellpadding="0" border="0" width="100%">
                                         <tr>
                                           <td align="left" valign="top">
-                                              <table class="three-quarters" width="">
+                                              <table class="three-quarters" width="100%" style="max-width: 420px;">
                                                 <tr>
                                                     <td style="padding: 0;">
-                                                        <table class="top words">
+                                                        <table class="top words" width="100%">
                                                             <tr>
                                                                 <td style="padding: 25px;">
-                                                                    <p style="color:#fb6304;font-weight: 700;font-size: 40px;">STILL DECIDING?</p>
-                                                                    <p style="font-weight: 600;font-size: 15px;">Take A Second Look</p>
+                                                                    <p style="color:#fb6304;font-weight: 700;font-size: 40px;" border="0">STILL DECIDING?</p>
+                                                                    <p style="font-weight: 600;font-size: 15px;" border="0">Take A Second Look</p>
                                                                 </td>
                                                             </tr>
                                                         </table>
-                                                        <table class="top">
+                                                        <table class="top" width="100%">
                                                             <tr>
                                                                 <td>
-                                                                    <a href="#"><img src="imgs/DECIDING.jpg" alt="" style="width: 100%;max-width: 489px;" width="100%"></a>
+                                                                    <a href="#"><img src="imgs/DECIDING.jpg" alt="" style="width: 100%;max-width: 420px;" width="100%" border="0"></a>
                                                                 </td>
                                                             </tr>
                                                         </table>
-                                                        <table class="bottom">
+                                                        <table class="bottom" width="100%">
                                                             <tr>
                                                                 <td>
-                                                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 10px 20px;display: inline-block;">SHOP THIS ITEM &#10097;</a>
-                                                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 10px 20px;display: inline-block;">SHOP APPLIANCES &#10097;</a>
+                                                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 10px 20px;display: inline-block;" border="0">SHOP THIS ITEM &#10097;</a>
+                                                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 10px 20px;display: inline-block;" border="0">SHOP APPLIANCES &#10097;</a>
                                                                 </td>
                                                             </tr>
                                                         </table>
@@ -393,29 +404,29 @@ u + #body a {
                                                 </td><td width="147" valign="top" style="padding: 0;">
                                               <![endif]-->
 
-                                              <table class="quarter">
+                                              <table class="quarter" width="100%" cellspacing="0" cellpadding="0" border="0">
                                                 <tr>
                                                     <td>
-                                                        <table class="buttons">
+                                                        <table class="buttons" width="100%">
                                                             <tr>
-                                                                <td width="" style="display: block;">
-                                                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #000;background-color: #eaebec;border:1px solid #eaebec;display: block;padding: 18px 20px;">APPLIANCE SAVINGS</a>
+                                                                <td width="100%" style="display: inline-block;">
+                                                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #000;background-color: #eaebec;border:1px solid #eaebec;display: block;padding: 18px 20px;" border="0">APPLIANCE SAVINGS</a>
                                                                 
-                                                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #000;background-color: #eaebec;border:1px solid #eaebec;display: block;padding: 18px 20px;">REFRIGERATORS</a>
+                                                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #000;background-color: #eaebec;border:1px solid #eaebec;display: block;padding: 18px 20px;" border="0">REFRIGERATORS</a>
                                                                     
-                                                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #000;background-color: #eaebec;border:1px solid #eaebec;display: block;padding: 18px 20px;">DISHWASHERS</a>
+                                                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #000;background-color: #eaebec;border:1px solid #eaebec;display: block;padding: 18px 20px;" border="0">DISHWASHERS</a>
                                                                     
-                                                                    <a href="#"  style="font-size: 16px;font-weight: bold;text-decoration: none;color: #000;background-color: #eaebec;border:1px solid #eaebec;display: block;padding: 18px 20px;">WASHERS</a>
+                                                                    <a href="#"  style="font-size: 16px;font-weight: bold;text-decoration: none;color: #000;background-color: #eaebec;border:1px solid #eaebec;display: block;padding: 18px 20px;" border="0">WASHERS</a>
                                                                     
-                                                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #000;background-color: #eaebec;border:1px solid #eaebec;display: block;padding: 18px 20px;">DRYERS</a>
+                                                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #000;background-color: #eaebec;border:1px solid #eaebec;display: block;padding: 18px 20px;" border="0">DRYERS</a>
                                                                     
-                                                                    <a href="#" class="dissapear" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #000;background-color: #eaebec;border:1px solid #eaebec;display: block;padding: 18px 20px;">COOKING</a>
+                                                                    <a href="#" class="disappear" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #000;background-color: #eaebec;border:1px solid #eaebec;display: block;padding: 18px 20px;" border="0">COOKING</a>
                                                                     
-                                                                    <a href="#" class="dissapear" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #000;background-color: #eaebec;border:1px solid #eaebec;display: block;padding: 18px 20px;">FREEZERS &#38; ICE MAKERS</a>
+                                                                    <a href="#" class="disappear" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #000;background-color: #eaebec;border:1px solid #eaebec;display: block;padding: 18px 20px;" border="0">FREEZERS &#38; ICE MAKERS</a>
                                                                     
-                                                                    <a href="#" class="dissapear" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #000;background-color: #eaebec;border:1px solid #eaebec;display: block;padding: 18px 20px;">SMALL APPLIANCES</a>
+                                                                    <a href="#" class="disappear" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #000;background-color: #eaebec;border:1px solid #eaebec;display: block;padding: 18px 20px;" border="0">SMALL APPLIANCES</a>
                                                                     
-                                                                    <a href="#" class="dissapear" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #000;background-color: #eaebec;border:1px solid #eaebec;display: block;padding: 18px 20px;">WINE,BEVERAGE &#38; KEG COOLERS</a>
+                                                                    <a href="#" class="disappear" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #000;background-color: #eaebec;border:1px solid #eaebec;display: block;padding: 18px 20px;" border="0">WINE,BEVERAGE &#38; KEG COOLERS</a>
                                                                 </td>
                                                             </tr>
 
@@ -449,35 +460,47 @@ u + #body a {
                         <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" bgcolor="#ffffff" role="presentation">
                             <tr>
                                 <td>
-                                    <table style="border-spacing: 0;text-align: center;" role="presentation">
+                                    <table style="border-spacing: 0;text-align: center;" role="presentation" width="100%">
                                         <tr>
                                             <td style="padding: 12px">
-                                                <p style="font-weight: 700;font-size: 20px;">CUSTOMERS WHO VIEW THIS ITEM BOUGHT...</p>
+                                                <p style="font-weight: 700;font-size: 20px;" border="0">CUSTOMERS WHO VIEW THIS ITEM BOUGHT...</p>
                                                 <tr>
-                                                    <td height="4px" style="background-color: #fb6304;"></td>
+                                                    <td height="4px" style="background-color: #fb6304;" border="0"></td>
                                                 </tr>
                                             </td>
                                         </tr>
                                     </table>
 
-                                    <table style="border-spacing: 0;text-align: center;" role="presentation">
+                                <tr>
+                                    <td>
+
+                                    <table style="border-spacing: 0;text-align: center;display: inline;" role="presentation" width="100%">
                                     <tr>
                                         <td>
                                             <table class="top-row">
                                                 <tr>
-                                                    <td>
-                                                        <a href="#"><img src="imgs/GASRANGEWHITE.jpg" alt="" width="179px"></a>
+                                                    <td align="center" width="100%" >
+                                                        <a href="#" target="_blank"><img src="imgs/GASRANGEWHITE.jpg" alt="" width="120px" height="" border="0" style="border: 0;display: block;max-width: 120px;" border="0"></a>
+
+                                                        <a href="#" target="_blank"><img src="imgs/GASRANGEWHITE.jpg" alt="" width="120px" height="" border="0" style="border: 0;display: block;max-width: 120px;" border="0"></a>      
                                                     </td>
                                                 </tr>
                                             </table>
-                                            <table class="b-row">
+                                            <table class="b-row" width="100%">
                                                 <tr>
-                                                    <td></td>
+                                                    <td>
+                                                        <a href="#" target="_blank" title="baby girl"><img src="imgs/GASRANGEWHITE.jpg" alt="" width="120px" height="" border="0" style="border: 0;display: block;max-width: 120px;" border="0"></a>
+
+                                                        <a href="#" target="_blank" title="baby girl"><img src="imgs/GASRANGEWHITE.jpg" alt="" width="120px" height="" border="0" style="border: 0;display: block;max-width: 120px;" border="0"></a>
+                                                    </td>
                                                 </tr>
                                             </table>
                                         </td>
                                     </tr>
                                     </table>
+                                </td>
+                            </tr>
+
                                 </td>
                             </tr>
                         </table>
@@ -497,7 +520,7 @@ u + #body a {
                                         <tr>
                                           <td align="left" valign="top">
                                             <a target="_blank" href="#">
-                                              <img src="imgs/EXCLUSIVETABLE.jpg" style="display:block;" width="636" border="0">
+                                              <img src="imgs/EXCLUSIVETABLE.jpg" style="display:block;" width="100%" border="0">
                                             </a>
                                           </td>
                                         </tr>
@@ -517,12 +540,12 @@ u + #body a {
                         <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" bgcolor="#ffffff" role="presentation">
                             <tr>
                                 <td style="padding: 12px 0 18px">
-                                    <table style="border-spacing: 0;text-align: center;" role="presentation">
+                                    <table style="border-spacing: 0;text-align: center;" role="presentation" width="100%">
                                         <tr>
                                             <td>
-                                                <p style="font-weight: 700;font-size: 20px;">YOU MIGHT ALSO LIKE...</p>
+                                                <p style="font-weight: 700;font-size: 20px;" border="0">YOU MIGHT ALSO LIKE...</p>
                                                 <tr>
-                                                    <td height="4px" style="background-color: #fb6304;"></td>
+                                                    <td height="4px" style="background-color: #fb6304;" border="0"></td>
                                                 </tr>
                                             </td>
                                         </tr>
@@ -546,13 +569,13 @@ u + #body a {
 
                             <tr>
                                 <td style="padding: 0;">
-                                    <table>
+                                    <table width="100%">
                                         <tr>
                                             <td>
-                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 6px 12px;display: inline-block;width: 120px;">Mobile App</a>
-                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 6px 12px;display: inline-block;width: 110px;">Local Ad</a>
-                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 6px 12px;display: inline-block;width: 140px;">Specials &#38; Offers</a>
-                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 6px 11px;display: inline-block;width: 120px;">Credit Center</a>
+                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 6px 12px;display: inline-block;width: 120px;" border="0">Mobile App</a>
+                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 6px 12px;display: inline-block;width: 110px;" border="0">Local Ad</a>
+                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 6px 12px;display: inline-block;width: 140px;" border="0">Specials &#38; Offers</a>
+                                    <a href="#" style="font-size: 16px;font-weight: bold;text-decoration: none;color: #eff8fe;background-color: #fb6304;border:1px solid #fb6304;padding: 6px 11px;display: inline-block;width: 120px;" border="0">Credit Center</a>
                                             </td>
                                         </tr>
                                     </table>
